@@ -26,7 +26,7 @@ fun getVersionName() = runCatching {
         standardOutput = stdout
     }
     stdout.toString().trim()
-}.getOrElse{ "0.0.0-local" }
+}.getOrElse{ "C8 Connect" }
 
 fun getVersionCode() =  runCatching {
     val stdout = ByteArrayOutputStream()
@@ -103,8 +103,8 @@ android {
 
     buildTypes {
         getByName("debug") {
-            applicationIdSuffix = ".debug"
-            versionNameSuffix = "-debug"
+            applicationIdSuffix = ""
+            versionNameSuffix = ""
         }
         getByName("release") {
             isMinifyEnabled = false
