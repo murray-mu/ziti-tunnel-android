@@ -117,7 +117,7 @@
                     android:textSize="22sp" />
             </LinearLayout>
 
-            <LinearLayout
+            <!-- <LinearLayout
                 android:id="@+id/AboutButton"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
@@ -138,9 +138,9 @@
                     android:text="@string/about"
                     android:textColor="@color/title"
                     android:textSize="22sp" />
-            </LinearLayout>
+            </LinearLayout> -->
 
-            <LinearLayout
+            <!-- <LinearLayout
                 android:id="@+id/FeedbackButton"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
@@ -161,9 +161,9 @@
                     android:text="@string/feedback"
                     android:textColor="@color/title"
                     android:textSize="22sp" />
-            </LinearLayout>
+            </LinearLayout> -->
 
-            <LinearLayout
+            <!-- <LinearLayout
                 android:id="@+id/SupportButton"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
@@ -184,7 +184,7 @@
                     android:text="@string/support"
                     android:textColor="@color/title"
                     android:textSize="22sp" />
-            </LinearLayout>
+            </LinearLayout> -->
         </LinearLayout>
     </LinearLayout>
 

@@ -53,9 +53,9 @@ class ZitiMobileEdgeActivity : AppCompatActivity() {
     private val OffButton by lazy { binding.OffButton }
     private val DashboardButton by lazy { binding.DashboardButton }
     private val AdvancedButton by lazy { binding.AdvancedButton }
-    private val AboutButton by lazy { binding.AboutButton }
-    private val FeedbackButton by lazy { binding.FeedbackButton }
-    private val SupportButton by lazy { binding.SupportButton }
+    // private val AboutButton by lazy { binding.AboutButton }
+    // private val FeedbackButton by lazy { binding.FeedbackButton }
+    // private val SupportButton by lazy { binding.SupportButton }
     private val AddIdentityButton by lazy { binding.AddIdentityButton }
     private val AddIdentityLabel by lazy { binding.AddIdentityLabel }
     private val HamburgerButton by lazy { binding.HamburgerButton }
@@ -215,13 +215,15 @@ class ZitiMobileEdgeActivity : AppCompatActivity() {
         MainLogo.setOnClickListener {
             toggleMenu()
         }
+        /*
         AboutButton.setOnClickListener {
             toggleMenu()
             supportFragmentManager.commit {
                 add<AboutFragment>(R.id.fragment_container_view, "about")
                 addToBackStack("about")
             }
-        }
+        } 
+        */
         AdvancedButton.setOnClickListener {
             toggleMenu()
             supportFragmentManager.commit {
@@ -229,14 +231,17 @@ class ZitiMobileEdgeActivity : AppCompatActivity() {
                 addToBackStack("advanced")
             }
         }
-
+        /*
         FeedbackButton.setOnClickListener {
             startActivity(Intent.createChooser(DebugInfo.feedbackIntent(app = ZitiMobileEdgeApp.app),
                 "Send Email"))
         }
+        */
+        /*
         SupportButton.setOnClickListener {
             launchUrl("https://support.netfoundry.io")
         }
+        */
         AddIdentityButton.setOnClickListener {
             startActivity(getEnrollmentIntent(application))
         }
