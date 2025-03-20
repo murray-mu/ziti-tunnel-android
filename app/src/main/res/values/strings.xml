@@ -12,7 +12,7 @@
     <string name="yours">Your Identities</string>
     <string name="details">Details</string>
     <string name="auth_status">Authentication</string>
-    <string name="name">Ziti Mobile Edge</string>
+    <string name="name">C8 Connect</string>
     <string name="platform">For Android</string>
     <string name="stop">Stop</string>
 
@@ -56,14 +56,14 @@
 
 
     <!-- Remove the following once Reskinned -->
-    <string name="app_name">Ziti Mobile Edge</string>
-    <string name="supportEmailSubject">OpenZiti Support(Android)</string>
+    <string name="app_name">C8 Connect</string>
+    <string name="supportEmailSubject">C8 Connect Support(Android)</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="main_title">Tap To Connect</string>
-    <string name="logo_desc">Ziti Logo</string>
+    <string name="main_title">C8 Connect</string>
+    <string name="logo_desc">C8 Logo</string>
     <string name="defults">0.0</string>
-    <string name="start">Start Tunnel</string>
+    <string name="start">Start C8 Connect</string>
     <string name="defaultTime">00:00:00</string>
     <string name="identities">Identities</string>
 
